@@ -60,7 +60,7 @@ public class Users {
     }
 
     public enum UserType {
-        CONSULTANT, ADMIN
+        CONSULTANT, ADMIN, DEALER
     }
 
 }
