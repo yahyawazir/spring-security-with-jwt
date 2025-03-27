@@ -21,6 +21,7 @@ import java.util.function.Function;
 
 @Component
 public class JwtUtil {
+    // Testing. Securet key should be stored in an environment variable
     private String SECRET_KEY = "vKwtHWLjIFQ2D+U4yIDNYqCpVvD+SXS1xRrLZQPfq8AfC/0USD/XQh0sXGd0FVD8e2iOkk4thofaYi6QivEWeQ==";
 
     public String extractUsername(String token) {
